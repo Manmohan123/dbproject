@@ -20,44 +20,42 @@ and open the template in the editor.
 <body bgcolor ="#E8E8E8">
     
     <%
-Class.forName("com.mysql.jdbc.Driver");
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/project",
+        Class.forName("com.mysql.jdbc.Driver");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/project",
             "manmohan", "manmohan");
-    Statement st = con.createStatement();
+        Statement st = con.createStatement();
     
-     
-    
-    
-    
-   
-    %>  
+   %>  
     
 
 	<div id="header">
-<a href="#" class="button" align="left">Home</a>	
+            
+                <a href="#" class="button" align="left">Home</a>	
 
-<!-- HTML for SEARCH BAR -->
-<form id="tfnewsearch" method="post" action="keysearchpage.jsp">
-	        <input type="text" class="tftextinput" name="q" id ="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
-		</form>
-		
+                <!-- HTML for SEARCH BAR -->
+                <form id="tfnewsearch" method="post" action="keysearchpage.jsp">
+                      <input type="text" class="tftextinput" name="q" id ="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+                </form>
+
 		<div class="tfclear"></div>
 
 	</div>
 	
-<div id="row">
-<center>
-    <form method="get" action="select.jsp">
-       <button type="submit">MEN</button> &nbsp;
+       <div id="row">
+        <center>
+        <form method="get" action="select.jsp">
+           <button type="submit">MEN</button> &nbsp;
        
-   </form>
-    <form method="get" action="select.jsp">
-       <button type="submit">WOMEN</button> &nbsp;
-   </form>
-</center>
-</div>
+        </form>
+            
+       <form method="get" action="select.jsp">
+           
+           <button type="submit">WOMEN</button> &nbsp;
+      </form>
+    </center>
+    </div>
 
-		<div class="left">
+         <div class="left">
                     <form >
 			<h4> Size </h4>
                         
@@ -103,13 +101,13 @@ Class.forName("com.mysql.jdbc.Driver");
 
 			
 			
-		</form>
-		</div>
+	</form>
+	</div>
 	
-		<div class="right">
-			<h4>Results</h4>
+       <div class="right">
+	       <h4>Results</h4>
                 <%! String[] Prices; %>
-<%! String[] Sizes; %>
+                <%! String[] Sizes; %>
                 <%!String[] sesssize ;%>
          
       <% 
