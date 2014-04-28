@@ -476,14 +476,14 @@ for(int i=0;i<Sizes.length;i++){
      String SQL10 = "{call category_counts_women  (?,?,?,?,?,?,?,?,'Women2')}";
      cstmt10 = con.prepareCall (SQL10);
     
-    cstmt10.setString(1,v);
-   cstmt10.setString(2,w);
-   cstmt10.setString(3,x);
-    cstmt10.setString(4,y);
-   cstmt10.setString(5,z);
-   cstmt10.setInt(6,k);
-   cstmt10.setInt(7,l);
-   cstmt10.setInt(8,m);
+        cstmt10.setString(1,v);
+        cstmt10.setString(2,w);
+        cstmt10.setString(3,x);
+        cstmt10.setString(4,y);
+        cstmt10.setString(5,z);
+        cstmt10.setInt(6,k);
+        cstmt10.setInt(7,l);
+        cstmt10.setInt(8,m);
    result10 = cstmt10.executeQuery();
    
    
@@ -493,14 +493,14 @@ for(int i=0;i<Sizes.length;i++){
      cstmt11 = con.prepareCall (SQL11);
     
     cstmt11.setString(1,v);
-   cstmt11.setString(2,w);
-   cstmt11.setString(3,x);
+    cstmt11.setString(2,w);
+    cstmt11.setString(3,x);
     cstmt11.setString(4,y);
-   cstmt11.setString(5,z);
-   cstmt11.setInt(6,k);
-   cstmt11.setInt(7,l);
-   cstmt11.setInt(8,m);
-   result11 = cstmt11.executeQuery();
+    cstmt11.setString(5,z);
+    cstmt11.setInt(6,k);
+    cstmt11.setInt(7,l);
+    cstmt11.setInt(8,m);
+    result11 = cstmt11.executeQuery();
    
   ResultSet result12=null;  
      CallableStatement cstmt12 = null;   
@@ -523,14 +523,14 @@ for(int i=0;i<Sizes.length;i++){
      String SQL13 = "{call category_counts_women  (?,?,?,?,?,?,?,?,'Women5')}";
      cstmt13 = con.prepareCall (SQL13);
     
-    cstmt13.setString(1,v);
-   cstmt13.setString(2,w);
-   cstmt13.setString(3,x);
-    cstmt13.setString(4,y);
-   cstmt13.setString(5,z);
-   cstmt13.setInt(6,k);
-   cstmt13.setInt(7,l);
-   cstmt13.setInt(8,m);
+        cstmt13.setString(1,v);
+        cstmt13.setString(2,w);
+        cstmt13.setString(3,x);
+        cstmt13.setString(4,y);
+        cstmt13.setString(5,z);
+        cstmt13.setInt(6,k);
+        cstmt13.setInt(7,l);
+        cstmt13.setInt(8,m);
    result13 = cstmt13.executeQuery();
    
    
@@ -539,15 +539,15 @@ for(int i=0;i<Sizes.length;i++){
      String SQL14 = "{call category_counts_women  (?,?,?,?,?,?,?,?,'Women6')}";
      cstmt14 = con.prepareCall (SQL14);
     
-    cstmt14.setString(1,v);
-   cstmt14.setString(2,w);
-   cstmt14.setString(3,x);
-    cstmt14.setString(4,y);
-   cstmt14.setString(5,z);
-   cstmt14.setInt(6,k);
-   cstmt14.setInt(7,l);
-   cstmt14.setInt(8,m);
-   result14 = cstmt14.executeQuery();
+        cstmt14.setString(1,v);
+        cstmt14.setString(2,w);
+        cstmt14.setString(3,x);
+        cstmt14.setString(4,y);
+        cstmt14.setString(5,z);
+        cstmt14.setInt(6,k);
+        cstmt14.setInt(7,l);
+        cstmt14.setInt(8,m);
+        result14 = cstmt14.executeQuery();
    
    ResultSet result15=null;  
      CallableStatement cstmt15 = null;   
@@ -555,13 +555,13 @@ for(int i=0;i<Sizes.length;i++){
      cstmt15 = con.prepareCall (SQL15);
     
     cstmt15.setString(1,v);
-   cstmt15.setString(2,w);
-   cstmt15.setString(3,x);
+    cstmt15.setString(2,w);
+    cstmt15.setString(3,x);
     cstmt15.setString(4,y);
-   cstmt15.setString(5,z);
-   cstmt15.setInt(6,k);
-   cstmt15.setInt(7,l);
-   cstmt15.setInt(8,m);
+    cstmt15.setString(5,z);
+    cstmt15.setInt(6,k);
+    cstmt15.setInt(7,l);
+    cstmt15.setInt(8,m);
    result15 = cstmt15.executeQuery();
    
    
@@ -600,14 +600,14 @@ ResultSet result18=null;
      String SQL18 = "{call category_counts_women  (?,?,?,?,?,?,?,?,'Women10')}";
      cstmt18 = con.prepareCall (SQL18);
     
-    cstmt18.setString(1,v);
-   cstmt18.setString(2,w);
-   cstmt18.setString(3,x);
-    cstmt18.setString(4,y);
-   cstmt18.setString(5,z);
-   cstmt18.setInt(6,k);
-   cstmt18.setInt(7,l);
-   cstmt18.setInt(8,m);
+        cstmt18.setString(1,v);
+        cstmt18.setString(2,w);
+        cstmt18.setString(3,x);
+        cstmt18.setString(4,y);
+        cstmt18.setString(5,z);
+        cstmt18.setInt(6,k);
+        cstmt18.setInt(7,l);
+        cstmt18.setInt(8,m);
    result18 = cstmt18.executeQuery();
    
    ResultSet result19=null;  
@@ -630,17 +630,18 @@ ResultSet result18=null;
      String SQL20 = "{call category_counts_women  (?,?,?,?,?,?,?,?,'Women12')}";
      cstmt20 = con.prepareCall (SQL20);
     
-    cstmt20.setString(1,v);
-   cstmt20.setString(2,w);
-   cstmt20.setString(3,x);
-    cstmt20.setString(4,y);
-   cstmt20.setString(5,z);
-   cstmt20.setInt(6,k);
-   cstmt20.setInt(7,l);
-   cstmt20.setInt(8,m);
-   result20 = cstmt20.executeQuery();
+        cstmt20.setString(1,v);
+        cstmt20.setString(2,w);
+        cstmt20.setString(3,x);
+        cstmt20.setString(4,y);
+        cstmt20.setString(5,z);
+        cstmt20.setInt(6,k);
+        cstmt20.setInt(7,l);
+        cstmt20.setInt(8,m);
+        
+        result20 = cstmt20.executeQuery();
 
-   ResultSet result21=null;  
+     ResultSet result21=null;  
      CallableStatement cstmt21 = null;   
      String SQL21 = "{call category_counts_women  (?,?,?,?,?,?,?,?,'Women13')}";
      cstmt21 = con.prepareCall (SQL21);
